@@ -1,0 +1,22 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  .label {
+    color: var(--Work-Presets-Text-White-Mode-Primary_G800, #333);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .input {
+    width: 376px;
+    height: 20px;
+    border-radius: 4px;
+    padding: 12px;
+    border: 1px solid var(--Black-Alpha-Alpha-16, rgba(0, 0, 0, 0.16));
+    background: var(--Black-Alpha-Alpha-4, rgba(0, 0, 0, 0.04));
+  }
+}
