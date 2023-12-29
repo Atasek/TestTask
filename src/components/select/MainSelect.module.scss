@@ -11,21 +11,15 @@
     line-height: 20px;
   }
 
-  .input {
-    width: 376px;
-    height: 20px;
+  .select {
+    width: 400px;
     border-radius: 4px;
     padding: 12px;
     border: 1px solid var(--Black-Alpha-Alpha-16, rgba(0, 0, 0, 0.16));
     background: var(--Black-Alpha-Alpha-4, rgba(0, 0, 0, 0.04));
   }
 
-  .alert{
-    margin: 0;
-    color: var(--Black-Alpha-Alpha-48, rgba(0, 0, 0, 0.48));
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
+  .select optgroup {
+    padding: 8px 12px;
   }
 }

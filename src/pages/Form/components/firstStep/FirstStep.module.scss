@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  .input {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .delete {
+      cursor: pointer;
+    }
+  }
+
+  .add {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1.5px solid var(--Purple-100, #5558FA);
+  }
+}

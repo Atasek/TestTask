@@ -1,0 +1,12 @@
+.button {
+  margin-top: 24px;
+  width: fit-content;
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #5558FA;
+  background: var(--Purple-100, #5558FA);
+  color: white;
+}
